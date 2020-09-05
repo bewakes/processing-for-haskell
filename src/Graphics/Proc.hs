@@ -153,14 +153,14 @@ module Graphics.Proc(
 	radians, degrees, e, erad,
 
 	-- ** Random
-	randomSeed, random, random2, randomP2, randomCol, randomCola,
-	randomGaussian,
+	-- randomSeed, random, random2, randomP2, randomCol, randomCola,
+	-- randomGaussian,
 
 	-- *** Perlin noise
 	-- | Returns the Perlin noise value at specified coordinates. Perlin noise is a random sequence generator producing a more natural, harmonic succession of numbers than that of the standard random() function. It was developed by Ken Perlin in the 1980s and has been used in graphical applications to generate procedural textures, shapes, terrains, and other seemingly organic forms.
   	--
   	-- processing docs: <https://processing.org/reference/noise_.html>
-	NoiseDetail(..), noiseDetail, noiseOctaves, noiseSeed, noise1, noise2, noise3,
+	-- NoiseDetail(..), noiseDetail, noiseOctaves, noiseSeed, noise1, noise2, noise3,
 	
 	-- * Misc
 	onCircle, onLine, uon,

@@ -64,13 +64,13 @@ Source-repository head
 library
   -- Modules exported by the library.
   exposed-modules:
-    Graphics.Proc       
-  
+    Graphics.Proc
+
   -- Modules included in this library but not exported.
   other-modules:  
     Graphics.Proc.Core
-    
-    Graphics.Proc.Core.PioRef    
+
+    Graphics.Proc.Core.PioRef
     Graphics.Proc.Core.Run
     Graphics.Proc.Core.GLBridge
     Graphics.Proc.Core.Vector
@@ -122,28 +122,28 @@ library
     Graphics.Proc.Lib.Typography.Attributes
     Graphics.Proc.Lib.Typography.Metrics
 
-    Graphics.Proc.Lib.Math 
+    Graphics.Proc.Lib.Math
     Graphics.Proc.Lib.Math.Calculation
     Graphics.Proc.Lib.Math.Trigonometry
-    Graphics.Proc.Lib.Math.Random
+    -- Graphics.Proc.Lib.Math.Random
 
     Graphics.Proc.Lib.Misc
 
   -- LANGUAGE extensions used by modules in this package.
   other-extensions: DeriveFunctor, GeneralizedNewtypeDeriving
-  
+
   -- Other library packages from which modules are imported.
-  build-depends:       
+  build-depends:
     base >=4.7 && <7, 
-    data-default, transformers, random, time, hsnoise, 
-    OpenGL, GLUT, 
+    data-default, transformers, random, time,
+    OpenGL, GLUT,
     -- FTGL, 
     utf8-string,
     vector-space, NumInstances
-  
+
   -- Directories containing source files.
   hs-source-dirs:      src
-  
+
   -- Base language which the package is written in.
   default-language:    Haskell2010
-  
+
